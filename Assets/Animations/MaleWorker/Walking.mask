@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Walking
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: FranPan_hard_hat1
+    m_Weight: 1
+  - m_Path: FranPan_hard_hat005
+    m_Weight: 1
+  - m_Path: FranPan_Woker
+    m_Weight: 1
+  - m_Path: wokerRig
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigLLeg1
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigLLeg1/wokerRigLLeg2
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigLLeg1/wokerRigLLeg2/wokerRigLLegAnkle
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigLLeg1/wokerRigLLeg2/wokerRigLLegAnkle/wokerRigLLegDigit11
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigRLeg1
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigRLeg1/wokerRigRLeg2
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigRLeg1/wokerRigRLeg2/wokerRigRLegAnkle
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigRLeg1/wokerRigRLeg2/wokerRigRLegAnkle/wokerRigRLegDigit11
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigSpine1
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigSpine1/wokerRigSpine2
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigSpine1/wokerRigSpine2/wokerRigHIPS002
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigSpine1/wokerRigSpine2/wokerRigHIPS002/wokerRigLArmCollarbone
+    m_Weight: 0
+  - m_Path: wokerRigHIPS001/wokerRigSpine1/wokerRigSpine2/wokerRigHIPS002/wokerRigLArmCollarbone/wokerRigLArm11
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigSpine1/wokerRigSpine2/wokerRigHIPS002/wokerRigLArmCollarbone/wokerRigLArm11/wokerRigLArm12
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigSpine1/wokerRigSpine2/wokerRigHIPS002/wokerRigLArmCollarbone/wokerRigLArm11/wokerRigLArm12/wokerRigLArm13
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigSpine1/wokerRigSpine2/wokerRigHIPS002/wokerRigLArmCollarbone/wokerRigLArm11/wokerRigLArm12/wokerRigLArm13/wokerRigLArm21
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigSpine1/wokerRigSpine2/wokerRigHIPS002/wokerRigLArmCollarbone/wokerRigLArm11/wokerRigLArm12/wokerRigLArm13/wokerRigLArm21/wokerRigLArm22
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigSpine1/wokerRigSpine2/wokerRigHIPS002/wokerRigLArmCollarbone/wokerRigLArm11/wokerRigLArm12/wokerRigLArm13/wokerRigLArm21/wokerRigLArm22/wokerRigLArm23
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigSpine1/wokerRigSpine2/wokerRigHIPS002/wokerRigLArmCollarbone/wokerRigLArm11/wokerRigLArm12/wokerRigLArm13/wokerRigLArm21/wokerRigLArm22/wokerRigLArm23/wokerRigLArmPalm
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigSpine1/wokerRigSpine2/wokerRigHIPS002/wokerRigRArmCollarbone
+    m_Weight: 0
+  - m_Path: wokerRigHIPS001/wokerRigSpine1/wokerRigSpine2/wokerRigHIPS002/wokerRigRArmCollarbone/wokerRigRArm11
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigSpine1/wokerRigSpine2/wokerRigHIPS002/wokerRigRArmCollarbone/wokerRigRArm11/wokerRigRArm12
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigSpine1/wokerRigSpine2/wokerRigHIPS002/wokerRigRArmCollarbone/wokerRigRArm11/wokerRigRArm12/wokerRigRArm13
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigSpine1/wokerRigSpine2/wokerRigHIPS002/wokerRigRArmCollarbone/wokerRigRArm11/wokerRigRArm12/wokerRigRArm13/wokerRigRArm21
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigSpine1/wokerRigSpine2/wokerRigHIPS002/wokerRigRArmCollarbone/wokerRigRArm11/wokerRigRArm12/wokerRigRArm13/wokerRigRArm21/wokerRigRArm22
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigSpine1/wokerRigSpine2/wokerRigHIPS002/wokerRigRArmCollarbone/wokerRigRArm11/wokerRigRArm12/wokerRigRArm13/wokerRigRArm21/wokerRigRArm22/wokerRigRArm23
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigSpine1/wokerRigSpine2/wokerRigHIPS002/wokerRigRArmCollarbone/wokerRigRArm11/wokerRigRArm12/wokerRigRArm13/wokerRigRArm21/wokerRigRArm22/wokerRigRArm23/wokerRigRArmPalm
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigSpine1/wokerRigSpine2/wokerRigHIPS002/wokerRigSpine
+    m_Weight: 1
+  - m_Path: wokerRigHIPS001/wokerRigSpine1/wokerRigSpine2/wokerRigHIPS002/wokerRigSpine/wokerRighead
+    m_Weight: 1
+  - m_Path: wokerRigLArmIKTarget
+    m_Weight: 1
+  - m_Path: wokerRigLLegPlatform
+    m_Weight: 1
+  - m_Path: wokerRigRArmIKTarget
+    m_Weight: 1
+  - m_Path: wokerRigRLegPlatform
+    m_Weight: 1

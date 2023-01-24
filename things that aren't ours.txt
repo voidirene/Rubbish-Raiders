@@ -1,0 +1,7 @@
+Graphics/Skip/*
+Graphics/ground_dirt_3-1K
+Graphics/arroway.de_pavement+06_d100
+	Materials/M_Lane
+Graphics/WM_Concrete-120_1024
+	Materials/M_Concrete
+Meshes/Skip

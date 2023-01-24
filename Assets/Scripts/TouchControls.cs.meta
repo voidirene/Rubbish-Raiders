@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 903cba57897f4eb498d7d7c1cc70a2db
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - selected: {instanceID: 0}
+  - manager: {fileID: 6034427134628851459, guid: ab8c6cf631601a54f995178d3a3db2ce, type: 3}
+  - foreman: {fileID: 6034427134628851459, guid: e66075e2116776e4ba3106ea1cd7999d, type: 3}
+  - modelView: {instanceID: 0}
+  - spawnSound: {instanceID: 0}
+  - workerThatTriggeredModelView: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

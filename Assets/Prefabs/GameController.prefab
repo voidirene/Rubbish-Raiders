@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2510018373942988383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5006210555183872686}
+  - component: {fileID: 2510018373942988382}
+  - component: {fileID: 2510018373942988376}
+  - component: {fileID: 2510018373942988377}
+  - component: {fileID: 4096025779600350795}
+  - component: {fileID: 1089538697684369254}
+  m_Layer: 2
+  m_Name: GameController
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5006210555183872686
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2510018373942988383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2510018373942988382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2510018373942988383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6d86648d8724c44fa0be25a41c8a073, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lanes: []
+--- !u!114 &2510018373942988376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2510018373942988383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68befc96d894b1c4bb62e5d05694baba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodes: []
+  connections:
+    keysA: 190000001800000014000000140000001500000016000000130000001300000012000000110000000400000001000000030000000200000002000000000000000000000006000000040000000f0000000e0000000d0000000c000000080000000800000007000000090000000500000005000000020000000a0000000500000005000000050000000b0000000b000000
+    keysB: 1a000000190000001800000015000000160000001700000015000000140000001300000012000000110000000400000004000000030000000500000002000000060000000700000010000000100000000f0000000e0000000e0000000c00000009000000080000000a0000000a0000000b0000000b0000000b0000001600000017000000150000001700000016000000
+    values: 010000000100000001000000010000000100000001000000030000000300000001000000010000000300000001000000010000000100000001000000030000000100000001000000030000000100000003000000010000000100000001000000010000000300000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+--- !u!114 &2510018373942988377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2510018373942988383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 903cba57897f4eb498d7d7c1cc70a2db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selected: {fileID: 0}
+  minZoom: 5
+  maxZoom: 30
+  zoomSpeed: 1
+  speedAtMaxZoom: 0.1
+  speedAtMinZoom: 2.5
+  workerMale: {fileID: 6034427134628851459, guid: 644636be47df3f04db84d945f486d301, type: 3}
+  workerFemale: {fileID: 6034427134628851459, guid: 00af0b5c82b390a4dba129eda8f98c12, type: 3}
+  workerHijab: {fileID: 6034427134628851459, guid: 70843c49cd6fbab4ab4e41efb09b703b, type: 3}
+  workerSkinTonesMale:
+  - {fileID: 2800000, guid: a79dcb19b4096d84b8e25a36dbcef8c1, type: 3}
+  - {fileID: 2800000, guid: b1a4fe037c0a924439764f7ea2a79938, type: 3}
+  - {fileID: 2800000, guid: e354eb443d3b0be4681ac56011dc391c, type: 3}
+  workerSkinTonesFemale:
+  - {fileID: 2800000, guid: 18e628c8d14cd684e978c59be40e5664, type: 3}
+  - {fileID: 2800000, guid: b33022d980825b14e9893987bd49503d, type: 3}
+  - {fileID: 2800000, guid: a72cdf9f81c0b0d419e39a251b5ec1fb, type: 3}
+  workerHairTonesFemale:
+  - {fileID: 2800000, guid: f55feabd890c0e040bd633601558ad92, type: 3}
+  - {fileID: 2800000, guid: 6505829ac14ca464ea4e46696d7cf942, type: 3}
+  workerHijabColours:
+  - {r: 0.9622642, g: 0.54013884, b: 0.7933011, a: 0}
+  - {r: 0.66119075, g: 0.495283, b: 1, a: 0}
+  - {r: 0.19651122, g: 0.6037736, b: 0.45155337, a: 0}
+  managerSkinTones:
+  - {fileID: 2800000, guid: 754da9d5d646f024bb1746a01f03da33, type: 3}
+  - {fileID: 2800000, guid: 05c11241b5d6a2b45a1ad2e55a1cfed8, type: 3}
+  - {fileID: 2800000, guid: d3e76e97b871b154a95a3cf48d500f7b, type: 3}
+  manager: {fileID: 6034427134628851459, guid: ab8c6cf631601a54f995178d3a3db2ce, type: 3}
+  foreman: {fileID: 6034427134628851459, guid: e66075e2116776e4ba3106ea1cd7999d, type: 3}
+  maxUnits: 18
+  spawnSound: {fileID: 8300000, guid: c378defbb4fdc9e4d8739aebc21b755d, type: 3}
+  workerThatTriggeredModelView: {fileID: 0}
+--- !u!114 &4096025779600350795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2510018373942988383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecb45e749d6573b4292314ca6c38f99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minigameChance: 0
+  offScreenPoint: {x: -60, y: 0, z: -70}
+  gates: {fileID: 0}
+--- !u!65 &1089538697684369254
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2510018373942988383}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 88.34673, y: 1, z: 63.172203}
+  m_Center: {x: 0, y: 0, z: -32.42245}
